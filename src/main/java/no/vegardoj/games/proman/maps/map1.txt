@@ -1,0 +1,24 @@
+# Map file for tile-based game
+# (Lines that start with '#' are comments)
+# The tiles are:
+#   (Space) Empty tile
+#   A..Z    Tiles A through Z
+#   o       Star
+#   !       Music Note
+#   *       Goal
+#   1       Bad Guy 1 (grub)
+#   2       Bad Guy 2 (fly)
+#   3       Lever
+									  CD
+									  CD
+BF                                            			  CD
+AD         IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII                            CD                  CA
+AD         I            o o o               2I   II                       CHBBBF              CA
+AD         I   IIIII                         I            II     EBBBBBF  CAAAAD              CA
+ADIIIIII   I       III IIIIII                I                   CAAAAAD  CAAAAHF             CA
+AD        3I           I  !        2         IIIIII            2 CAAAAAD  CAAAAAD       *     CA
+AD   IIIIIIIIII   o1   I    1                                    CAAAAAD  CAAAAAHF   IIIIIII  CA
+AD               oEF   IIIIII           1    1  1     EBBBF      CAAAAAD  CAAAAAAD            CA
+ADI             oEBBF  I      1      IIIIIIIIIIIII   EBBBBBF     CAAAAAD                      CA
+AD   I  1 I     EBBBBBBBBBBBBBBBF     o o o o o o   EBBBBBBBF    CAAAAAHBBBBBBBBBBF          3CA
+AD   BBBBBBBBBBBGAAAAAAAAAAAAAAAHBBBBBBBBBBBBBBBBBBBGAAAAAAAHBBBBGAAAAAAAAAAAAAAAAHBBBBBBBBBBBGA
